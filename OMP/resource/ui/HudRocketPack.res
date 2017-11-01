@@ -1,4 +1,5 @@
-"Resource/UI/HudItemEffectMeter_SpyKnife.res"
+#base "HudItemEffectMeter.res"
+"Resource/UI/HudRocketPack.res"
 {
 	HudItemEffectMeter
 	{
@@ -6,7 +7,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-100"
-		"ypos"			"c72"
+		"ypos"			"c88"
 		"wide"			"200"
 		"tall"			"6"
 		"MeterFG"		"White"
@@ -25,11 +26,11 @@
 		"visible"		"1"
 		"visible_minmode"	"0"
 		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_horiz3_blue"
+		"image"			"../hud/misc_ammo_area_horiz1_blue"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz3_red"
+		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_horiz3_blue"
+		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
 	
@@ -47,7 +48,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_ENERGYDRINK"
+		"labelText"				"#TF_RocketPack_Disabled"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
@@ -66,7 +67,7 @@
 		"xpos"					"25"
 		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"150"
+		"wide"					"75"
 		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -79,6 +80,30 @@
 		"fgcolor_override"		"255 255 255 255"
 		
 		"xpos_minmode"			"50"
-		"wide_minmode"			"100"
-	}					
+		"wide_minmode"			"50"
+	}
+	
+	"ItemEffectMeter2"
+	{	
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ItemEffectMeter2"
+		"font"					"Default"
+		"xpos"					"101"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"74"
+		"tall"					"6"				
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"Left"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"bgcolor_override"		"OmpDarkBG"
+		"fgcolor_override"		"255 255 255 255"
+		
+		"xpos_minmode"			"101"
+		"wide_minmode"			"49"
+	}
 }

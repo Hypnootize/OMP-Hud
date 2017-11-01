@@ -1,23 +1,5 @@
 "GameMenu" [$WIN32]
 {
-	"CasualButton"
-	{
-		"label" "Casual" 
-		"command" "play_casual"
-		"subimage" "glyph_multiplayer"
-	}
-	"CompetitiveButton"
-	{
-		"label" "Competitive" 
-		"command" "play_competitive"
-		"subimage" "glyph_multiplayer"
-	}
-	"MvMButton"
-	{
-		"label" "MvM" 
-		"command" "play_mvm"
-		"subimage" "glyph_multiplayer"
-	}
 	"ServerBrowserButton"
 	{
 		"label" "Servers" 
