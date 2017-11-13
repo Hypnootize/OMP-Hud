@@ -191,6 +191,7 @@
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
+			"border"		"MainMenuBGBorder"
 		}
 
 		"NameLabel"
@@ -237,6 +238,7 @@
 			{
 				"xpos"	"67"
 				"ypos"	"4"
+				"font"	"HudFontSmallestBold"
 			}
 		}
 
@@ -285,6 +287,12 @@
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
+					
+					if_mini
+					{
+						"tall"			"20"
+						"font"			"ItemFontAttribSmall"
+					}
 				}
 
 				"NextLevelXPLabel"
@@ -303,6 +311,12 @@
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
+					
+					if_mini
+					{
+						"tall"			"20"
+						"font"			"ItemFontAttribSmall"
+					}
 				}
 
 				"ProgressBarsContainer"
