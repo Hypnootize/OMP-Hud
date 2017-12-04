@@ -198,9 +198,9 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"126"
-			"ypos"			"36"
-			"wide"			"135"
+			"xpos"			"1"
+			"ypos"			"10"
+			"wide"			"130"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
@@ -213,7 +213,11 @@
 
 			if_mini
 			{
-				"visible"	"0"
+				"xpos"			"65"
+				"ypos"			"5"
+				"wide"			"f0"
+				"font"			"HudFontSmallishBold"
+				"visible"		"0"
 			}
 		}
 
@@ -221,9 +225,9 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"LevelLabel"
-			"xpos"			"126"
-			"ypos"			"50"
-			"wide"			"f0"
+			"xpos"			"1"
+			"ypos"			"24"
+			"wide"			"130"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
@@ -238,6 +242,7 @@
 			{
 				"xpos"	"67"
 				"ypos"	"4"
+				"wide"			"f0"
 				"font"	"HudFontSmallestBold"
 			}
 		}
@@ -246,9 +251,9 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"rs1-5"
-			"ypos"			"-35"
-			"wide"			"160"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"130"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
@@ -282,7 +287,7 @@
 					"tall"			"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"Futura11"
+					"font"			"ItemFontAttribSmall"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
@@ -291,7 +296,6 @@
 					if_mini
 					{
 						"tall"			"20"
-						"font"			"ItemFontAttribSmall"
 					}
 				}
 
@@ -306,7 +310,7 @@
 					"tall"			"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"Futura11"
+					"font"			"ItemFontAttribSmall"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
@@ -315,7 +319,6 @@
 					if_mini
 					{
 						"tall"			"20"
-						"font"			"ItemFontAttribSmall"
 					}
 				}
 
