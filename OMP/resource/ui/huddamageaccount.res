@@ -9,8 +9,8 @@
 		"PositiveColor"			"OmpHealNumbers"
 		"NegativeColor"			"OmpDamageNumbers"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"FuturaHeavy20"
-		"delta_item_font_big"	"FuturaHeavy20"
+		"delta_item_font"		"FuturaHeavyOutline20"
+		"delta_item_font_big"	"FuturaHeavyOutline20"
 	}
 	"CDamageAccountValue"
 	{
