@@ -159,19 +159,35 @@
 		"scaleImage"	"1"
 	}
 	
+	"KillAnchor"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"KillAnchor"
+		"xpos"						"-3"
+		"ypos"						"27"
+		"wide"						"8"
+		"tall"						"8"
+		"visible"					"1"
+		"enabled"					"1"
+	}
+	
 	"KillStreakIcon"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"KillStreakIcon"
-		"xpos"			"30"
-		"ypos"			"27"
-		"zpos"			"12"
-		"wide"			"8"
-		"tall"			"8"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/leaderboard_streak"
-		"scaleImage"	"1"
+		"ControlName"				"ImagePanel"
+		"fieldName"					"KillStreakIcon"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"12"
+		"wide"						"9"
+		"tall"						"9"
+		"visible"					"0"
+		"enabled"					"1"
+		"image"						"../hud/leaderboard_streak"
+		"scaleImage"				"1"
+		
+		"pin_to_sibling" 			"KillAnchor"
+		"pin_corner_to_sibling" 	"1"
+		"pin_to_sibling_corner" 	"1"
 	}
 	
 	"MoveableSubPanel"
@@ -185,72 +201,5 @@
 		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"	
-		
-		"MoveableIconBG"
-		{
-			"ControlName"	"CIconPanel"
-			"fieldName"		"MoveableIconBG"
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"zpos"			"0"
-			"wide"			"10"
-			"tall"			"36"
-			"visible"		"1"
-			"enabled"		"1"
-			"icon"			"obj_status_alert_background_tall_nocolor"
-			"iconColor"		"HudBlack"
-			"scaleImage"	"1"
-		}
-		
-		"MoveableIcon"
-		{
-			"ControlName"	"CIconPanel"
-			"fieldName"		"MoveableIcon"
-			"xpos"			"5"
-			"ypos"			"7"
-			"zpos"			"11"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"icon"			"obj_status_sentrygun_1"
-			"drawcolor"		"ProgressOffWhite"
-			"scaleImage"	"1"
-		}
-		"MoveableSymbolIcon"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MoveableSymbolIcon"
-			"xpos"			"16"
-			"ypos"			"-2"
-			"zpos"			"12"
-			"wide"			"16"
-			"tall"			"8"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/eng_sel_item_movable"
-			"drawcolor"		"ProgressOffWhite"
-			"scaleImage"	"1"
-		}
-
-		"MoveableKeyLabel"
-		{	
-			"ControlName"		"Label"
-			"fieldName"		"MoveableKeyLabel"
-			"font"			"Futura9"
-			"xpos"			"0"
-			"ypos"			"27"
-			"zpos"			"1"
-			"wide"			"640"
-			"tall"			"9"
-			"autoResize"		"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%movekey%"
-			"textAlignment"		"North"
-			"dulltext"		"0"
-			"brighttext"		"0"
-		}	
 	}
 }

@@ -253,8 +253,8 @@
 			"fonts"
 			{
 				"0"		"Futura11"
-				"1"		"Futura11"
-				"2"		"Futura11"
+				"1"		"Futura9"
+				"2"		"Futura9"
 			}
 		}
 
@@ -286,8 +286,8 @@
 			"fonts"
 			{
 				"0"		"Futura11"
-				"1"		"Futura11"
-				"2"		"Futura11"
+				"1"		"Futura9"
+				"2"		"Futura9"
 			}
 
 			"colors"
@@ -303,7 +303,7 @@
 			"fieldName"		"StatsContainer"
 			"xpos"			"64"
 			"ypos"			"0"
-			"wide"			"120"
+			"wide"			"130"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 

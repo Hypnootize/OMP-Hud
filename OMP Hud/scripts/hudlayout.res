@@ -1,3 +1,5 @@
+#base "../scripts/Crosshairs/crosshairs.res"
+
 "Resource/HudLayout.res"
 {
 	HudPlayerStatus
@@ -103,13 +105,13 @@
 	HudBowCharge
 	{
 		"fieldName"		"HudBowCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"99999"
-		"ypos"			"99999"
-		"zpos"			"1"			// draw in front of ammo
-		"wide"			"200"
-		"tall"			"6"
+		"visible"		"0"
+		"enabled"		"0"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"			// draw in front of ammo
+		"wide"			"0"
+		"tall"			"0"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -836,6 +838,7 @@
 		"enabled"				"1"
 		"xpos"					"c-120"
 		"ypos"					"r132"
+		"zpos"					"20"
 		"wide"					"240"
 		"tall"					"132"
 	}
@@ -847,6 +850,7 @@
 		"enabled"				"1"
 		"xpos"					"c-180"
 		"ypos"					"r132"
+		"zpos"					"20"
 		"wide"					"360"
 		"tall"					"132"
 	}
@@ -858,6 +862,7 @@
 		"enabled"				"1"
 		"xpos"					"c-150"
 		"ypos"					"255"
+		"zpos"					"20"
 		"wide"					"300"
 		"tall"					"215"
 	}
@@ -865,14 +870,12 @@
 	StatPanel
 	{
 		"fieldName"				"StatPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"9999"
-		"ypos"				"9999"
-		"wide"					"266"
-		"wide_lodef"			"400"
-		"tall"					"120"
-		"tall_lodef"			"190"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"0"
+		"tall"					"0"
 	}
 	
 	FreezePanel
@@ -889,12 +892,12 @@
 	FreezePanelCallout
 	{
 		"fieldName"				"FreezePanelCallout"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"200"
-		"ypos"					"200"
-		"wide"					"100"
-		"tall"					"50"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"0"
+		"tall"					"0"
 	}
 
 	AnnotationsPanelCallout
@@ -956,7 +959,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-130"
 		"ypos"			"c88"
-		"zpos"			"1"
+		"zpos"			"20"
 		"wide"			"260"
 		"tall"			"108"
 		"PaintBackgroundType"	"0"
@@ -969,7 +972,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-130"
 		"ypos"			"c88"
-		"zpos"			"1"
+		"zpos"			"20"
 		"wide"			"260"
 		"tall"			"108"
 		"PaintBackgroundType"	"0"
@@ -982,7 +985,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-66"
 		"ypos"			"c88"
-		"zpos"			"1"
+		"zpos"			"20"
 		"wide"			"132"
 		"tall"			"108"
 		"PaintBackgroundType"	"0"
@@ -995,7 +998,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-130"
 		"ypos"			"c108"
-		"zpos"			"1"
+		"zpos"			"20"
 		"wide"			"260"
 		"tall"			"88"
 		"PaintBackgroundType"	"0"
@@ -1015,24 +1018,24 @@
 	HudTeamGoal
 	{
 		"fieldName"				"HudTeamGoal"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"9999"
-		"ypos"					"9999"
-		"wide"					"320"
-		"tall"					"100"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"0"
+		"tall"					"0"
 	}
 
 
 	HudTeamGoalTournament
 	{
 		"fieldName"				"HudTeamGoalTournament"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"9999"
-		"ypos"					"9999"
-		"wide"					"320"
-		"tall"					"245"
+		"visible"				"0"
+		"enabled"				"0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"0"
+		"tall"					"0"
 	}
 
 	HudTeamSwitch
@@ -1052,13 +1055,11 @@
 	{
 		"fieldName"				"HudArenaNotification"
 		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"75"
-		"ypos_hidef"				"90"
-		"ypos_lodef"				"90"
-		"wide"					"320"
-		"tall"					"150"
+		"enabled"				"0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"0"
+		"tall"					"0"
 	}
 
 	HudArenaCapPointCountdown
@@ -1091,8 +1092,7 @@
 		"enabled"				"1"
 		"xpos"					"c-125"
 		"ypos"					"5"
-		"ypos_lodef"				"75"
-		"zpos"					"2"
+		"zpos"					"20"
 		"wide"					"250"
 		"tall"					"80"
 	}
@@ -1363,8 +1363,6 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
 		"zpos"			"20"
 		"wide"			"470"
 		"tall"			"200"
@@ -1476,86 +1474,5 @@
 		"keyboardinputenabled"	"1"
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
-	}
-	
-	"OmpCrosshairPlus"
-	{
-		"controlName" "CExLabel"
-		"fieldName" "OmpCrosshairPlus"
-		"font" "SymbolSharp24"
-		"fgcolor" "255 0 255 255"
-		"labelText" "+"
-		"xpos" "c-100"
-		"ypos" "c-103"
-		"wide" "200"
-		"tall" "200"
-		"visible" "0"
-		"enabled" "0"
-		"textAlignment" "center"
-	}
-
-	"OmpCrosshairPlusSmall"
-	{
-		"controlName" "CExLabel"
-		"fieldName" "OmpCrosshairPlusSmall"
-		"font" "CrosshairsSharp15"
-		"fgcolor" "255 0 255 255"
-		"labelText" "2"
-		"xpos" "c-101"
-		"ypos" "c-100"
-		"wide" "200"
-		"tall" "202"
-		"visible" "0"
-		"enabled" "0"
-		"textAlignment" "center"
-	}
-	
-	"OmpCrosshairDot"
-	{
-		"controlName" "CExLabel"
-		"fieldName" "OmpCrosshairDot"
-		"font" "Crosshairs22"
-		"fgcolor" "255 0 255 255"
-		"labelText" "3"
-		"xpos" "c-103"
-		"ypos" "c-100"
-		"wide" "201"
-		"tall" "201"
-		"visible" "0"
-		"enabled" "0"
-		"textAlignment" "center"
-	}
-
-	"OmpCrosshairCircle"
-	{
-		"controlName" "CExLabel"
-		"fieldName" "OmpCrosshairCircle"
-		"font" "Crosshairs40"
-		"fgcolor" "225 225 225 30"
-		"labelText" "9"
-		"xpos" "c-100"
-		"ypos" "c-96"
-		"wide" "201"
-		"tall" "200"
-		"visible" "0"
-		"enabled" "0"
-		"textAlignment" "center"
-	}
-	
-	CrossHairSeeker
-	{
-		"controlName"  "CExLabel"
-		"fieldName"     "CrossHairSeeker"
-		"visible"    "0"
-		"enabled"    "1"
-		"zpos"      "1"
-		"xpos"      "c-14"
-		"ypos"      "c-12"
-		"wide"      "24"
-		"tall"      "24"
-		"font"      "CrossHairNormal"
-		"labelText"    "x"
-		"fgcolor"    "235 226 202 255"
-		"textAlignment"  "center"
 	}
 }
