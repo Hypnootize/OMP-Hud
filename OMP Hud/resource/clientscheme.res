@@ -5960,17 +5960,17 @@ Scheme
 		// omp fonts
 		"8"
 		{
-			"font" "resource/FuturaStd-Medium.otf"
+			"font" "resource/fonts/FuturaStd-Medium.otf"
 			"name" "FuturaStd-Medium"
 		}
 		"9"
 		{
-			"font" "resource/FuturaStd-Heavy.otf"
+			"font" "resource/fonts/FuturaStd-Heavy.otf"
 			"name" "FuturaStd-Heavy"
 		}
 		"10"
 		{
-			"font" "resource/Blocks.ttf"
+			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
 	}
