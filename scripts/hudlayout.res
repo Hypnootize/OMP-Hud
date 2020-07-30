@@ -1,4 +1,4 @@
-#base "../scripts/Crosshairs/crosshairs.res"
+#base "../scripts/crosshairs/Crosshairs.res"
 
 "Resource/HudLayout.res"
 {
@@ -93,7 +93,8 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-100"
+		"xpos"			"c-75"
+		"xpos_minmode"	"c-50"
 		"ypos"			"c88"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"200"
@@ -105,13 +106,14 @@
 	HudBowCharge
 	{
 		"fieldName"		"HudBowCharge"
-		"visible"		"0"
-		"enabled"		"0"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"			// draw in front of ammo
-		"wide"			"0"
-		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c-75"
+		"xpos_minmode"	"c-50"
+		"ypos"			"c72"
+		"zpos"			"1"
+		"wide"			"150"
+		"tall"			"0"		//6
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}

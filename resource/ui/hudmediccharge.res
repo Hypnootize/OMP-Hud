@@ -78,7 +78,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeMeterLabel"
 		"xpos"					"25"
-		"ypos"					"36"
+		"ypos"					"44"
 		"zpos"					"3"
 		"wide"					"150"
 		"tall"					"6"
@@ -95,7 +95,6 @@
 		"fgcolor_override"		"OmpMeterLabel"
 		
 		"xpos_minmode"			"50"
-		"ypos_minmode"			"52"
 		"wide_minmode"			"100"
 	}
 	
@@ -105,7 +104,7 @@
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
 		"xpos"			"25"
-		"ypos"			"36"
+		"ypos"			"44"
 		"zpos"			"2"
 		"wide"			"150"
 		"tall"			"6"				
@@ -120,7 +119,6 @@
 		"fgcolor_override"	"255 255 255 255"
 		
 		"xpos_minmode"			"50"
-		"ypos_minmode"			"52"
 		"wide_minmode"			"100"
 	}		
 
@@ -129,7 +127,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TargetBG"
 		"xpos"			"25"
-		"ypos"			"36"
+		"ypos"			"44"
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"6"
@@ -140,7 +138,6 @@
 		"fillcolor"		"OmpDarkBG"
 		
 		"xpos_minmode"			"50"
-		"ypos_minmode"			"52"
 		"wide_minmode"			"100"
 	}
 
@@ -150,7 +147,7 @@
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
 		"xpos"			"25"
-		"ypos"			"36"
+		"ypos"			"44"
 		"zpos"			"2"
 		"wide"			"36"
 		"tall"			"6"				
@@ -165,7 +162,6 @@
 		"fgcolor_override"	"255 255 255 255"
 		
 		"xpos_minmode"			"50"
-		"ypos_minmode"			"52"
 		"wide_minmode"			"24"
 	}
 
@@ -175,7 +171,7 @@
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
 		"xpos"			"63"
-		"ypos"			"36"
+		"ypos"			"44"
 		"zpos"			"2"
 		"wide"			"36"
 		"tall"			"6"				
@@ -190,7 +186,6 @@
 		"fgcolor_override"	"255 255 255 255"
 		
 		"xpos_minmode"			"76"
-		"ypos_minmode"			"52"
 		"wide_minmode"			"23"
 	}
 
@@ -200,7 +195,7 @@
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
 		"xpos"			"101"
-		"ypos"			"36"
+		"ypos"			"44"
 		"zpos"			"2"
 		"wide"			"36"
 		"tall"			"6"			
@@ -215,7 +210,6 @@
 		"fgcolor_override"	"255 255 255 255"
 		
 		"xpos_minmode"			"101"
-		"ypos_minmode"			"52"
 		"wide_minmode"			"23"
 	}
 
@@ -225,7 +219,7 @@
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
 		"xpos"			"139"
-		"ypos"			"36"
+		"ypos"			"44"
 		"zpos"			"2"
 		"wide"			"36"
 		"tall"			"6"			
@@ -240,7 +234,6 @@
 		"fgcolor_override"	"255 255 255 255"
 		
 		"xpos_minmode"			"126"
-		"ypos_minmode"			"52"
 		"wide_minmode"			"24"
 	}
 	

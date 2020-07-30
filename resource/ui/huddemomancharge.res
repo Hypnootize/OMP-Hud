@@ -4,7 +4,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeMeterLabel"
-		"xpos"					"25"
+		"xpos"					"0"
 		"ypos"					"10"
 		"zpos"					"3"
 		"wide"					"150"
@@ -21,7 +21,6 @@
 		"font"					"Futura7"
 		"fgcolor_override"		"OmpMeterLabel"
 		
-		"xpos_minmode"			"50"
 		"wide_minmode"			"100"
 	}
 	"ChargeMeter"
@@ -29,7 +28,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"25"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"150"
@@ -44,7 +43,6 @@
 		"bgcolor_override"	"OmpDarkBG"
 		"fgcolor_override"	"255 255 255 255"
 		
-		"xpos_minmode"			"50"
 		"wide_minmode"			"100"
 	}					
 }
