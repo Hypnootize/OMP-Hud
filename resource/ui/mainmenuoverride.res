@@ -439,6 +439,49 @@
 			"bgcolor_override"	"OMPDarkBG"
 		}
 	}
+
+	"ReportPlayerButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ReportPlayerButton"
+		"xpos"			"40"
+		"ypos"			"165"
+		"zpos"			"15"
+		"wide"			"100"
+		"tall"			"14"
+		"visible"		"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"100"
+			"tall"			"14"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"0"
+			"use_proportional_insets" "1"
+			"font"			"Futura11"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			
+			"defaultFgColor_override" 	"OmpText"
+			"armedFgColor_override" 	"125 225 30 255"
+			"depressedFgColor_override" "125 225 30 255"
+		}
+	}
 	
 	"ServerBrowserButton"
 	{
