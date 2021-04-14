@@ -2,56 +2,56 @@
 {
 	"ServerBrowserButton"
 	{
-		"label" 		"Servers" 
+		"label" 		"#MMenu_PlayList_ServerBrowser_Button" 
 		"command" 		"OpenServerBrowser"
 		"subimage"		""
 	}
 	"CreateServerButton"
 	{
-		"label" 		"Create"
+		"label" 		"#MMenu_PlayList_CreateServer_Button"
 		"command" 		"OpenCreateMultiplayerGameDialog"
 		"subimage"		""
 		"OnlyAtMenu" 	"1"
 	}
 	"CharacterSetupButton"
 	{
-		"label" 		"Items"
+		"label" 		"#Item"
 		"command" 		"engine open_charinfo"
 		"subimage" 		""
 	}
 	"GeneralStoreButton"
 	{
-		"label" 		"Store"
+		"label" 		"#MMenu_StoreHighlightPanel_Title"
 		"command" 		"engine open_store"
 		"subimage" 		""
 	}	
 	"ReplayBrowserButton"
 	{
-		"label" 		"Replays"
+		"label" 		"#MMenu_Replays"
 		"command" 		"engine replay_reloadbrowser"
 		"subimage" 		""
 	}
 	"SteamWorkshopButton"
 	{
-		"label" 		"Workshop"
+		"label" 		"#MMenu_SteamWorkshop"
 		"command" 		"engine OpenSteamWorkshopDialog"
 		"subimage" 		""
 	}
 	"SettingsButton"
 	{
-		"label" 		"Options"
+		"label" 		"#MMenu_Tooltip_Options"
 		"command" 		"OpenOptionsDialog"
 		"subimage" 		""
 	}
 	"TF2SettingsButton"
 	{
-		"label" 		"Advanced Options"
+		"label" 		"#TF_AdvancedOptions"
 		"command" 		"opentf2options"
 		"subimage" 		""
 	}
 	"QuitButton"
 	{
-		"label" 		"Quit"
+		"label" 		"#TF_Quit_Title"
 		"command" 		"engine replay_confirmquit"
 		"subimage" 		""
 		"OnlyAtMenu" 	"1"
@@ -61,22 +61,29 @@
 	// These buttons are only shown while in-game
 	"DisconnectButton"
 	{
-		"label" 		"Disconnect"
+		"label" 		"#TF_Disconnect"
 		"command" 		"engine disconnect"
 		"subimage" 		""
 		"OnlyInGame"	"1"
 	}
 	"CallVoteButton"
 	{
-		"label"			"Call Vote"
+		"label"			"#MMenu_CallVote"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" 		""
 	}
 	"MutePlayersButton"
 	{
-		"label"			"Mute Players"
-		"command"		"OpenPlayerListDialog"
+		"label"			"#MMenu_MutePlayers"
+		"command"		"OpenMutePlayerDialog"
+		"OnlyInGame"	"1"
+		"subimage" 		""
+	}
+	"ReportPlayerButton"
+	{
+		"label"			"#MMenu_ReportPlayer"
+		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
 		"subimage" 		""
 	}

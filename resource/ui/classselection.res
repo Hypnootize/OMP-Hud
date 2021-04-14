@@ -741,7 +741,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Edit Loadout"
+		"labelText"		"Edit Loadout (&E)"
 		"textAlignment"	"center"
 		"Command"		"openloadout"
 		"font"			"Futura11"

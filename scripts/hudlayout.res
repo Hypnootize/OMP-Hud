@@ -266,7 +266,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-100"
-		"ypos"		"c100"
+		"ypos"		"c70"
 		"wide"	 	"200"
 		"tall"	 	"40"
 		"priority"	"40"
@@ -466,7 +466,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"
-		"ypos"	 "8" // omp -- -2 spacing fix.
+		"ypos"	 "18" // omp -- -2 spacing fix.
 		"wide"	 "630"
 		"tall"	 "470"
 
