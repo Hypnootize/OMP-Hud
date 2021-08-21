@@ -15,7 +15,7 @@
 	}
 	"CharacterSetupButton"
 	{
-		"label" 		"#Item"
+		"label" 		"#Store_Items"
 		"command" 		"engine open_charinfo"
 		"subimage" 		""
 	}
@@ -45,7 +45,7 @@
 	}
 	"TF2SettingsButton"
 	{
-		"label" 		"#TF_AdvancedOptions"
+		"label" 		"#MMenu_AdvOptions"
 		"command" 		"opentf2options"
 		"subimage" 		""
 	}
