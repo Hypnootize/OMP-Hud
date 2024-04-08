@@ -16,7 +16,7 @@
 ![Health & Ammo](../screenshots/05_Health_Ammo.jpg?raw=true)
 
 ## HEALTH & AMMO MINMODE
-![Health & Ammo Minmode](../screenshots/06_Health_Ammo.jpg?raw=true)
+![Health & Ammo Minmode](../screenshots/06_Health_Ammo_Minmode.jpg?raw=true)
 
 ## HEALTH BUFF
 ![Health Buff](../screenshots/07_Health_Buff.jpg?raw=true)
